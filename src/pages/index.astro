@@ -1,0 +1,714 @@
+---
+const BASE = import.meta.env.BASE_URL;
+---
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Frank Yupanqui Allcca — Senior Software Engineer</title>
+  <meta content="Portafolio profesional de Frank Yupanqui Allcca: Backend Sr, Arquitectura de Sistemas, AWS y Full Stack." name="description">
+  <meta content="Frank Yupanqui Allcca, Senior Software Engineer, Backend, AWS, Node.js, React, Arquitectura de Sistemas" name="keywords">
+
+  <!-- Favicons -->
+  <link href={`${BASE}assets/img/favicon.png`} rel="icon">
+  <link href={`${BASE}assets/img/apple-touch-icon.png`} rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href={`${BASE}assets/vendor/bootstrap/css/bootstrap.min.css`} rel="stylesheet">
+  <link href={`${BASE}assets/vendor/bootstrap-icons/bootstrap-icons.css`} rel="stylesheet">
+  <link href={`${BASE}assets/vendor/aos/aos.css`} rel="stylesheet">
+  <link href={`${BASE}assets/vendor/glightbox/css/glightbox.min.css`} rel="stylesheet">
+  <link href={`${BASE}assets/vendor/swiper/swiper-bundle.min.css`} rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href={`${BASE}assets/css/main.css`} rel="stylesheet">
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="profile-img">
+      <img src={`${BASE}assets/img/my-profile-img.jpg`} alt="Frank Yupanqui Allcca" class="img-fluid rounded-circle">
+    </div>
+
+    <a href={BASE} class="logo d-flex align-items-center justify-content-center">
+      <h1 class="sitename">Frank Yupanqui</h1>
+    </a>
+
+    <div class="social-links text-center">
+      <a href="https://www.linkedin.com/in/fyupanquia/" target="_blank" rel="noopener noreferrer" class="linkedin" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+      <a href="#contact" class="email" aria-label="Contacto"><i class="bi bi-envelope"></i></a>
+      <a href="https://www.instagram.com/fyupanquia/" target="_blank" class="instagram"><i class="bi bi-instagram"></i></a>
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Inicio</a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i>Acerca de</a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i>Trayectoria</a></li>
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i>Casos y Proyectos</a></li>
+        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i>Especialidades</a></li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i>Contacto</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+<!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src={`${BASE}assets/img/fyupanquia.png`} alt="Fondo de portafolio de Frank Yupanqui Allcca" class="">
+
+      <div class="container">
+        <h2>Frank Yupanqui Allcca</h2>
+        <p>Soy <span class="typed" data-typed-items="Senior Software Engineer, Backend Sr, Arquitecto de Sistemas, AWS Certified">Senior Software Engineer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Acerca de</h2>
+        <p>Ing. de Sistemas e Informática · Backend Sr · Arquitectura de Sistemas · 1x AWS Certified · Scrum Master Certified · Generación TOP 2024 · Inglés B2.</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
+            <img src={`${BASE}assets/img/my-profile-img.jpg`} class="img-fluid" alt="Frank Yupanqui Allcca">
+          </div>
+          <div class="col-lg-8 content">
+            <h2>Senior Software Engineer &amp; Arquitectura de Sistemas</h2>
+            <p class="fst-italic py-3">
+              Egresado de la carrera de Ingeniería de Sistemas e Informática con experiencia en desarrollo backend, microservicios, infraestructura en la nube (AWS) y aplicaciones full stack en sectores como pagos, seguros, retail y educación.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Nombre:</strong> <span>Frank Yupanqui Allcca</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Cargo actual:</strong> <span>Senior Software Engineer</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Ubicación:</strong> <span>Perú</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Idioma:</strong> <span>Inglés (B2 / Nivel profesional)</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>LinkedIn:</strong> <span><a href="https://www.linkedin.com/in/fyupanquia/" target="_blank" rel="noopener noreferrer">linkedin.com/in/fyupanquia</a></span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Certificaciones:</strong> <span>AWS Certified · Scrum Master</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Correo:</strong> <span><a href="mailto:fyupanquia@outlook.com?subject=Contacto%20desde%20el%20portafolio&body=Hola%20Frank%2C%20me%20gustar%C3%ADa%20ponerme%20en%20contacto%20contigo.">fyupanquia@outlook.com</a></span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Sitio / GitHub:</strong> <span><a href="https://github.com/fyupanquia" target="_blank" rel="noopener noreferrer">github.com/fyupanquia</a></span></li>
+                </ul>
+              </div>
+            </div>
+            <p class="py-3">
+              A lo largo de mi trayectoria he trabajado en diseño de componentes en AWS, APIs y microservicios con Node.js y PHP/Laravel, frontends con React y Vue, contenedores Docker, pipelines CI/CD y calidad de código con pruebas automatizadas y análisis estático.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-briefcase"></i>
+              <span data-purecounter-start="0" data-purecounter-end="11" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Roles y experiencias</strong> <span>registradas desde 2014</span></p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-award"></i>
+              <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Certificaciones y cursos</strong> <span>AWS, Scrum, Cloud y Testing</span></p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="909" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Seguidores en LinkedIn</strong> <span>y +500 contactos</span></p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-shield-check"></i>
+              <span data-purecounter-start="0" data-purecounter-end="80" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>% Cobertura destacada</strong> <span>en solución de seguros (Indra/RIMAC)</span></p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section light-background">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Aptitudes y Stack</h2>
+        <p>Tecnologías, arquitectura cloud, bases de datos, pruebas y prácticas de ingeniería presentes en tu perfil</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <div class="col-lg-6">
+            <h3>Backend, APIs y Arquitectura</h3>
+            <p>Node.js, ExpressJS, Sequelize, Mongoose, Serverless Framework, PHP, Laravel, Lumen, APIs RESTful, WebSockets, patrones (MVC, Singleton, Composite, Mediator), Swagger y diseño de arquitectura en Draw.io.</p>
+          </div>
+          <div class="col-lg-6">
+            <h3>Cloud AWS, Contenedores y CI/CD</h3>
+            <p>EC2, Lambda, API Gateway, S3, Step Functions, Cognito, CloudWatch, Log Insights, CloudFormation, Route53, IAM, Elastic Load Balancer, Docker, Nginx, Linux (Ubuntu, CentOS), GitHub, GitLab, Jenkins y AWS CodePipeline/CodeBuild/CodeDeploy.</p>
+          </div>
+          <div class="col-lg-6">
+            <h3>Bases de Datos</h3>
+            <p>MySQL, MariaDB, PostgreSQL, Oracle, DynamoDB y MongoDB.</p>
+          </div>
+          <div class="col-lg-6">
+            <h3>Frontend, Calidad y Metodología</h3>
+            <p>React, React Native (Expo), VueJS, HTML5, CSS3, JavaScript; pruebas con Jest, Cucumber, Mocha y AVA; TDD/BDD, SonarQube, Jira y Scrum.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Trayectoria</h2>
+        <p>Experiencia profesional y formación académica recopilada de tu perfil de LinkedIn</p>
+      </div>
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Perfil y Educación</h3>
+
+            <div class="resume-item pb-0">
+              <h4>Frank Yupanqui Allcca</h4>
+              <p><em>Senior Software Engineer · Ing. de Sistemas e Informática · Backend Sr | Arquitectura de Sistemas | 1x AWS Certified | Scrum Master Certified | Generación TOP 2024 | B2 English.</em></p>
+              <ul>
+                <li>Perú</li>
+                <li><a href="https://www.linkedin.com/in/fyupanquia/" target="_blank" rel="noopener noreferrer">linkedin.com/in/fyupanquia</a></li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Educación</h3>
+            <div class="resume-item">
+              <h4>Bachelor of Engineering - BE, Ingeniería de Sistemas</h4>
+              <h5>2020 – 2024</h5>
+              <p><em>UTP Universidad Tecnológica del Perú</em></p>
+              <p>Formación en programación, diseño de sistemas, administración de bases de datos y tecnologías de la información (10° superior en el periodo indicado en el perfil).</p>
+            </div>
+
+            <div class="resume-item">
+              <h4>AWS Certified Cloud Practitioner</h4>
+              <h5>2022 – 2025</h5>
+              <p><em>Amazon Web Services Training and Certification</em></p>
+            </div>
+
+            <div class="resume-item">
+              <h4>Professional Information Technology Technician</h4>
+              <h5>2012 – 2015</h5>
+              <p><em>Instituto SISE</em></p>
+            </div>
+
+            <div class="resume-item">
+              <h4>Inglés Intermedio y Avanzado</h4>
+              <h5>2016 – 2019</h5>
+              <p><em>Asociación Cultural Peruano Británica (Británico)</em></p>
+            </div>
+
+            <h3 class="resume-title">Certificaciones y Cursos</h3>
+            <div class="resume-item">
+              <ul>
+                <li>Scrum Master Certified — SCRUMstudy (Dic 2019)</li>
+                <li>AWS Essentials — Udemy (May 2021)</li>
+                <li>Nodejs Express - unit testing/integration tests with Jest — Udemy (May 2021)</li>
+                <li>Serverless Framework Bootcamp: Node.js, AWS &amp; Microservices — Udemy (Jun 2021)</li>
+                <li>AWS Lambda and the Serverless Framework - Hands On Learning! — Udemy (Jul 2021)</li>
+                <li>The Node.js Master Class — Pirple (Jul 2021)</li>
+                <li>Tutor STEM Física y Matemática — UTP (Jul 2021)</li>
+                <li>[NEW] Ultimate AWS Certified Cloud Practitioner - 2021 — Udemy (Ago 2021)</li>
+                <li>Blockchain and Bitcoin Fundamentals — Udemy (Sep 2021)</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Experiencia Profesional</h3>
+
+            <div class="resume-item">
+              <h4>Senior Software Engineer — Desarrollador Backend Sr</h4>
+              <h5>Jul 2022 – Actualidad</h5>
+              <p><em>Culqi</em></p>
+              <p>Me desempeño como Desarrollador Backend Sr. Mis responsabilidades son:</p>
+              <ul>
+                <li>Trabajo en estrecha colaboración con equipos multidisciplinarios, incluyendo desarrolladores front-end y diseñadores, para garantizar la entrega oportuna de proyectos.</li>
+                <li>Analizo y elaboro diagramas de arquitectura de microservicios para la representación de soluciones informáticas, estrategias y planes de acción.</li>
+                <li>Monitoreo los flujos transaccionales en Dynatrace para la rápida acción ante errores y la optimización de procesos involucrados.</li>
+                <li>Desarrollé un sistema de comunicación bidireccional que permite la comunicación personalizada entre terminal y backend.</li>
+                <li>Participo en la planificación y gestión de proyectos, asegurando que se cumplan los plazos y los entregables.</li>
+                <li>Desarrollé y preparé los componentes en AWS para una limpia migración de versiones en los puntos de venta.</li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+              <h4>Senior Software Development Engineer</h4>
+              <h5>May 2021 – May 2022 · 1 año y 1 mes</h5>
+              <p><em>Indra — Lima, Perú (Trabajé para RIMAC)</em></p>
+              <p>A través de la consultora trabajé para RIMAC, donde mis responsabilidades fueron:</p>
+              <ul>
+                <li>Desarrollé importantes microservicios con Node.js y conjunción con framework Serverless y un ORM nativo, basado en propósitos de solución de seguros de vehículos.</li>
+                <li>Realicé mantenimiento del dashboard en REACT para las pólizas de vehículos, análisis de gráficas e informes.</li>
+                <li>Trabajé en el mantenimiento de app Kotlin para consulta y seguimiento de pólizas de vehículos.</li>
+                <li>Gestionar bases de datos MySQL, Redis, DynamoDB y Oracle.</li>
+                <li>Manejé herramientas de AWS como S3, Lambdas, API Gateway, Step functions, Cloudwatch, Insights, CloudFormation, etc.</li>
+                <li>Desarrollé pruebas unitarias con Jest Cucumber (TDD y BDD).</li>
+                <li>CI/CD con GitHub, GitLab, Jenkins.</li>
+                <li>Capacité constantemente a nuestros equipos en nuevas tecnologías, estándares de programación y lógica de negocio.</li>
+                <li>Documenté la orquestación de servicios y detalles de los componentes con Swagger.</li>
+                <li>Apliqué rigurosamente la metodología ágil SCRUM.</li>
+                <li>Elaboré informes con Jasper.</li>
+                <li>Integré las API de proveedores externos con nuestro ecosistema informático.</li>
+                <li>Eliminé código obsoleto, bugs, reduje la duplicación de código y aumenté la cobertura con SonarQube.</li>
+                <li>Diseñé arquitectura de componentes AWS en Draw.io.</li>
+                <li>Registré diariamente mis actividades en Jira, siendo así transparente en las actividades que realizaba.</li>
+              </ul>
+              <p><strong>Mi principal logro:</strong></p>
+              <p>Flujo automatizado de contratación, renovación y migración de planes para pólizas de vehículos. Se añadió una nueva capa de seguridad Cognito en nuestras APIs. Alcanzamos el 80% de cobertura de una gran solución de código fuente, código de olor eliminado por completo, sin código duplicado.</p>
+            </div>
+
+            <div class="resume-item">
+              <h4>Back End Developer</h4>
+              <h5>Jun 2020 – May 2021 · 1 año</h5>
+              <p><em>IT DATA Consulting S.A.C. — Lima, Perú (Trabajé para RIPLEY PERU)</em></p>
+              <p>A través de la consultora trabajé para RIPLEY PERÚ, donde mis responsabilidades fueron:</p>
+              <ul>
+                <li>Desarrollé relevantes microservicios con Node.js, en conjunto con el framework ExpressJS y el ORM Sequelize, basados en propósitos de solución de transporte.</li>
+                <li>Realicé el mantenimiento de un react native app con expo para el seguimiento de productos, análisis de gráficos y reportes.</li>
+                <li>Realicé el mantenimiento de react dashboard para seguimiento de productos, análisis de gráficos e informes.</li>
+                <li>Administré bases de datos, trabajé con bases de datos PostgreSQL y Oracle.</li>
+                <li>Manejo de herramientas de AWS como S3, API Gateway, Cloudwatch, Elastic Load Balancer, AWS COGNITO.</li>
+                <li>Creé fundamentales API GATEWAY RESTFUL con Lambdas con Expressjs y consumo de APIs de terceros.</li>
+                <li>Construí pipelines de CI/CD con Codecommit, CodeDeploy, CodeBuild, ECR y CodePipeline.</li>
+                <li>Implementé servicios con tecnologías WebSockets para una experiencia en tiempo real en el panel de control.</li>
+                <li>Creé y realicé el mantenimiento de motores construidos con servicios Nodejs dockerizados.</li>
+                <li>Capacité constantemente a nuestros desarrolladores sobre nuevas tecnologías, estándares de programación y lógica de negocio.</li>
+                <li>Apliqué rigurosamente la metodología ágil SCRUM.</li>
+              </ul>
+              <p><strong>Mi principal logro:</strong></p>
+              <ul>
+                <li>Construimos una completa (móvil y de escritorio) y eficiente solución de transporte para un envío inesperado de productos problema debido a la pandemia, en un corto período de tiempo.</li>
+                <li>Contribuí a fortalecer la seguridad de las aplicaciones y los datos, garantizando que se siguieran las mejores prácticas de seguridad cibernética.</li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+              <h4>Information Technology Infrastructure Specialist</h4>
+              <h5>Mar 2019 – Jun 2020 · 1 año y 4 meses</h5>
+              <p><em>ProEducative — Provincia de Lima, Perú</em></p>
+              <p>Mis actividades como Analista de Infraestructura fueron:</p>
+              <ul>
+                <li>Configuré grupos de seguridad y EC2 con SO CentOS y Ubuntu para crear entornos de QA, DEVELOP y RELEASE.</li>
+                <li>Configuré el proxy de Nginx en instancias EC2.</li>
+                <li>Gestioné los usuarios IAM, roles, accesos y restricciones.</li>
+                <li>Gestioné los usuarios Linux y grupos para DEVs y QAs.</li>
+                <li>Analicé y reduje costes de presupuesto AWS con la Calculadora TCO, dashboards de facturación, alarmas de facturación e informes de costes y uso.</li>
+                <li>Convertí archivos multimedia almacenados en S3 en archivos multimedia en los formatos requeridos por los dispositivos de reproducción de consumo con Amazon Elastic Transcoder.</li>
+                <li>Gestioné el almacenamiento de objetos (backups, documentos, multimedia, etc.) con S3 y Glacier (versionado y ciclo de vida), además de seguridad S3 (basada en usuarios y basada en recursos).</li>
+                <li>Gestioné el DNS con Route53 e instalación de licencias HTTPS.</li>
+                <li>Configuré alarmas y depuración con CloudWatch y Log Insights.</li>
+                <li>Gestioné bases de datos SQL y NoSQL ON PREMISE &amp; ON CLOUD, por ejemplo: MariaDB, PostgreSQL y MongoDB.</li>
+                <li>Desplegué servicios con API Gateway y Lambdas.</li>
+                <li>Configuré el CORS de los servicios trabajados.</li>
+              </ul>
+              <p><strong>Mi principal logro:</strong></p>
+              <ul>
+                <li>Empaqueté cada uno de los servicios y manejé contenedores con Docker; fue un poco difícil pero al final del día todas las aplicaciones estaban en contenedores. Ahora no pasan demasiado tiempo configurando un EC2 desde cero porque la plataforma se dividió en microservicios con despliegues sin complicaciones.</li>
+                <li>Proporcioné orientación y entrenamiento a mi equipo, lo que contribuyó al desarrollo profesional y el crecimiento de los miembros del equipo.</li>
+                <li>Mantuve documentación detallada de los sistemas y procesos, lo que facilitó la integración de nuevos miembros del equipo y la solución de problemas más eficientemente.</li>
+                <li>Estuve a la vanguardia de las últimas tecnologías y tendencias del sector, lo que ayudó a mantener nuestras aplicaciones competitivas y actualizadas.</li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+              <h4>Full Stack Engineer</h4>
+              <h5>Ene 2018 – Mar 2019 · 1 año y 3 meses</h5>
+              <p><em>ProEducative — San Isidro, Lima, Perú</em></p>
+              <p>Mis responsabilidades como FullStack Engineer fueron:</p>
+              <ul>
+                <li>Mantenimiento de plataforma educativa virtual, dividida en 3 módulos principales: dashboard de administración, tablero virtual y dashboard de alumnos.</li>
+                <li>Ayudé en el diseño y la implementación de soluciones escalables que permitieron que las aplicaciones manejaran un aumento en la carga de trabajo sin problemas.</li>
+                <li>Desarrollo de varios microservicios con Node.js y en conjunto con el framework ExpressJS y Mongoose ORM, basados en los propósitos de la solución educativa.</li>
+                <li>Construir módulo de certificación, pago y soporte para el tablero de estudiantes con VueJS.</li>
+                <li>Construir módulos de evaluación, cuestionarios, reproductor multimedia para el tablero virtual con ReactJS.</li>
+                <li>Conexión Websocket para notificaciones en tiempo real y auditorio de evaluaciones en vivo.</li>
+                <li>Desarrollo de API PHP con Laravel framework y Eloquent ORM, gestión de recursos AWS con PHP SDK.</li>
+                <li>Desarrollo de API Nodejs con framework Express y ORM mongoose, gestión de recursos AWS con SDK NodeJS.</li>
+                <li>Implementación de PaaS e IaaS.</li>
+                <li>Administración de bases de datos MySQL y MongoDB.</li>
+                <li>CI con GitHub y GitLab.</li>
+                <li>Documentación de API con SWAGGER.</li>
+                <li>Entrené nuevos desarrolladores backend para trabajar con nuestra plataforma.</li>
+                <li>MVC, Singleton, Composite, patrón Mediator, etc.</li>
+                <li>Pruebas unitarias con Jest.</li>
+              </ul>
+              <p><strong>Mi principal logro:</strong></p>
+              <p>Implementación de TDD en un código fuente sin cobertura, las pruebas unitarias se disparaban antes de cada push a las ramas del repositorio principal junto al linter.</p>
+            </div>
+
+            <div class="resume-item">
+              <h4>Full-stack Developer &amp; Full Stack Engineer</h4>
+              <h5>Dic 2014 – Ene 2018</h5>
+              <p><em>Plaindes · SOFTDYNAMIC S.A.C · ABC Asesoría Educativa · Universidad ESAN · PLATINUM OWL S.A.C · REPSAC</em></p>
+              <ul>
+                <li>Desarrollo web y full stack con PHP, Laravel, Lumen, VueJS, React, HTML5, CSS3, JavaScript, WebSockets, MySQL/MariaDB y MongoDB.</li>
+                <li>Integración de pasarelas de pago, webhooks, WordPress, tiendas y plataformas educativas/financieras; pruebas con Mocha/AVA y despliegues en EC2/GitLab.</li>
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section light-background">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Casos y Proyectos</h2>
+        <p>Selección de proyectos y soluciones en los que he participado en desarrollo backend, arquitectura cloud, aplicaciones web/móviles e infraestructura.</p>
+      </div>
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">Todos</li>
+            <li data-filter=".filter-backend">Backend &amp; Cloud</li>
+            <li data-filter=".filter-frontend">Web &amp; Apps</li>
+            <li data-filter=".filter-infra">Infraestructura</li>
+          </ul>
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-backend filter-infra">
+              <div class="portfolio-content h-100">
+                <img src={`${BASE}assets/img/portfolio/culqi.png`} class="img-fluid" alt="Backend Sr y arquitectura en Culqi">
+                <div class="portfolio-info">
+                  <h4>Backend Sr &amp; Puntos de Venta (Culqi)</h4>
+                  <p>Microservicios, AWS, Dynatrace y comunicación terminal-backend</p>
+                  <a href={`${BASE}assets/img/portfolio/culqi.png`} title="Backend Sr &amp; Puntos de Venta (Culqi)" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href={`https://culqi.com/`} target="_blank" title="Más detalles" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-backend filter-infra">
+              <div class="portfolio-content h-100">
+                <img src={`${BASE}assets/img/portfolio/rimac.png`} class="img-fluid" alt="Seguros vehiculares en AWS y Node.js">
+                <div class="portfolio-info">
+                  <h4>Seguros Vehiculares (Indra / RIMAC)</h4>
+                  <p>Node.js, Serverless, AWS y 100% de cobertura de pruebas</p>
+                  <a href={`${BASE}assets/img/portfolio/rimac.png`} title="Seguros Vehiculares (Indra / RIMAC)" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href={`https://www.rimac.com/vehicular/seguro-pago-por-kilometros?rfid=publica:producto-pago-por-kilometros:menu-principal:link`} target="_blank" title="Más detalles" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-backend filter-frontend">
+              <div class="portfolio-content h-100">
+                <img src={`${BASE}assets/img/portfolio/ripley.png`} class="img-fluid" alt="Solución de transporte y seguimiento">
+                <div class="portfolio-info">
+                  <h4>Solución de Transporte (IT DATA / Ripley)</h4>
+                  <p>Node.js, React, React Native, WebSockets y AWS</p>
+                  <a href={`${BASE}assets/img/portfolio/ripley.png`} title="Solución de Transporte (IT DATA / Ripley)" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href={`https://simple.ripley.com.pe/`} target="_blank" title="Más detalles" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-backend filter-infra">
+              <div class="portfolio-content h-100">
+                <img src={`${BASE}assets/img/portfolio/proeducative.png`} class="img-fluid" alt="Arquitectura y contenedores en AWS">
+                <div class="portfolio-info">
+                  <h4>Infraestructura y Microservicios (ProEducative)</h4>
+                  <p>Docker, EC2, Nginx, IAM, S3, CloudWatch y optimización de costos</p>
+                  <a href={`${BASE}assets/img/portfolio/proeducative.png`} title="Infraestructura y Microservicios (ProEducative)" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href={`https://proeducative.com/`} target="_blank" title="Más detalles" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-backend filter-frontend">
+              <div class="portfolio-content h-100">
+                <img src={`${BASE}assets/img/portfolio/plaindes.png`} class="img-fluid" alt="Consultoría de proyectos de inversión en WordPress y PHP (Plaindes)">
+                <div class="portfolio-info">
+                  <h4>Plaindes — Web &amp; CMS WordPress</h4>
+                  <p>WordPress, PHP nativo, MySQL, HTML/CSS, Git y despliegue a producción</p>
+                  <a href={`${BASE}assets/img/portfolio/plaindes.png`} title="Plaindes — Web &amp; CMS WordPress" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href={`https://plaindes.com.pe/`} target="_blank" title="Más detalles" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Especialidades</h2>
+        <p>Áreas de trabajo en las que has participado a lo largo de tu carrera</p>
+      </div>
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon flex-shrink-0"><i class="bi bi-server"></i></div>
+            <div>
+              <h4 class="title"><a href={`${BASE}service-details`} class="stretched-link">Desarrollo Backend y APIs</a></h4>
+              <p class="description">Microservicios, APIs RESTful y flujos en tiempo real con TypeScript, Node.js, Express y PHP/Laravel.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon flex-shrink-0"><i class="bi bi-cloud"></i></div>
+            <div>
+              <h4 class="title"><a href={`${BASE}service-details`} class="stretched-link">Arquitectura y Cloud AWS</a></h4>
+              <p class="description">Diseño de componentes, cómputo serverless, almacenamiento, seguridad y control de costos en AWS.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon flex-shrink-0"><i class="bi bi-layers"></i></div>
+            <div>
+              <h4 class="title"><a href={`${BASE}service-details`} class="stretched-link">Aplicaciones Full Stack</a></h4>
+              <p class="description">Dashboards y aplicaciones web/móviles con React,React Native, Next.js, Nest.js y VueJS integradas a servicios backend.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon flex-shrink-0"><i class="bi bi-box-seam"></i></div>
+            <div>
+              <h4 class="title"><a href={`${BASE}service-details`} class="stretched-link">Contenedores y CI/CD</a></h4>
+              <p class="description">Docker, Nginx, Linux y automatización de despliegues en GitHub Actions, GitLab, Jenkins y AWS.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon flex-shrink-0"><i class="bi bi-database"></i></div>
+            <div>
+              <h4 class="title"><a href={`${BASE}service-details`} class="stretched-link">Bases de Datos</a></h4>
+              <p class="description">Administración y modelado en MySQL, MariaDB, PostgreSQL, Oracle, DynamoDB y MongoDB.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
+            <div class="icon flex-shrink-0"><i class="bi bi-check2-square"></i></div>
+            <div>
+              <h4 class="title"><a href={`${BASE}service-details`} class="stretched-link">Calidad de Código y Pruebas</a></h4>
+              <p class="description">TDD/BDD con Jest, Cucumber, Mocha y AVA, análisis con SonarQube y mentoría técnica.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contacto</h2>
+        <p>Canales disponibles en tu perfil (recuerda que un sitio estático en GitHub Pages requiere un servicio externo como Formspree o similar si quieres envío de formularios sin backend propio)</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Ubicación</h3>
+                  <p>Perú</p>
+                </div>
+              </div>
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-linkedin flex-shrink-0"></i>
+                <div>
+                  <h3>LinkedIn</h3>
+                  <p><a href="https://www.linkedin.com/in/fyupanquia/" target="_blank" rel="noopener noreferrer">linkedin.com/in/fyupanquia</a></p>
+                </div>
+              </div>
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Correo</h3>
+                  <p>fyupanquia@outlook.com</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form action="#" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">Tu nombre</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required="">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">Tu correo</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">Asunto</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Mensaje</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <button type="submit">Enviar mensaje</button>
+                </div>
+
+              </div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+
+    <div class="container">
+      <div class="copyright text-center">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Frank Yupanqui Allcca</strong> <span>Todos los derechos reservados</span></p>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script is:inline src={`${BASE}assets/vendor/bootstrap/js/bootstrap.bundle.min.js`}></script>
+  <script is:inline src={`${BASE}assets/vendor/aos/aos.js`}></script>
+  <script is:inline src={`${BASE}assets/vendor/typed.js/typed.umd.js`}></script>
+  <script is:inline src={`${BASE}assets/vendor/purecounter/purecounter_vanilla.js`}></script>
+  <script is:inline src={`${BASE}assets/vendor/waypoints/noframework.waypoints.js`}></script>
+  <script is:inline src={`${BASE}assets/vendor/glightbox/js/glightbox.min.js`}></script>
+  <script is:inline src={`${BASE}assets/vendor/imagesloaded/imagesloaded.pkgd.min.js`}></script>
+  <script is:inline src={`${BASE}assets/vendor/isotope-layout/isotope.pkgd.min.js`}></script>
+  <script is:inline src={`${BASE}assets/vendor/swiper/swiper-bundle.min.js`}></script>
+
+  <!-- Main JS File -->
+  <script is:inline src={`${BASE}assets/js/main.js`}></script>
+
+  <script is:inline>
+  document.addEventListener('DOMContentLoaded', () => {
+    const form = document.querySelector('.php-email-form');
+    if (!form) return;
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      const data = {
+        access_key: '04fb1d78-8efd-473d-8bb4-5432b749b416',
+        name: form.querySelector('#name-field')?.value || '',
+        email: form.querySelector('#email-field')?.value || '',
+        subject: form.querySelector('#subject-field')?.value || '',
+        message: form.querySelector('#message-field')?.value || '',
+      };
+
+      const res = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+      });
+
+      const result = await res.json();
+      if (result.success) {
+        alert('Mensaje enviado correctamente.');
+        form.reset();
+      } else {
+        alert('No se pudo enviar el mensaje. Intenta nuevamente.');
+      }
+    });
+  });
+</script>
+
+</body>
+
+</html>
